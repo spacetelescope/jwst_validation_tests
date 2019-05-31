@@ -19,6 +19,8 @@ where `<URL>` is of the form:
 
     Linux: http://ssb.stsci.edu/releases/jwstdp/0.12.2/latest-linux
     OS X: http://ssb.stsci.edu/releases/jwstdp/0.12.2/latest-osx
+    
+Other versions can be installed by choosing a different version tag in place of "0.12.2" in the URL path. See the "Software vs DMS build version map" table [on this page](https://github.com/spacetelescope/jwst#software-vs-dms-build-version-map) for a list of tags corresponding to particular releases. 
 
 ### CRDS Setup ###
 
