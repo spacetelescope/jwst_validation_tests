@@ -1,6 +1,8 @@
 # JWST Validation Tests
 
 <!-- [![Build Status](https://travis-ci.com/spacetelescope/jwst_validation_notebooks.svg?branch=master)](https://travis-ci.com/spacetelescope/jwst_validation_notebooks) -->
+[![PyPI - License](https://img.shields.io/pypi/l/Django.svg)](https://github.com/spacetelescope/jwql/blob/master/LICENSE)
+[![STScI](https://img.shields.io/badge/powered%20by-STScI-blue.svg?colorA=707170&colorB=3e8ddd&style=flat)](http://www.stsci.edu)
 
 This repository contains test scripts that are used to validate the output of the JWST Calibration Pipeline. These are tests that do not need to be inspected visually by members
 of the science instrument teams.
@@ -24,3 +26,23 @@ Inside the STScI network, the pipeline works with default CRDS setup with no mod
 
     export CRDS_PATH=$HOME/crds_cache
     export CRDS_SERVER_URL=https://jwst-crds.stsci.edu
+
+## Software Contributions
+
+If you would like to contribute to the `jwst_validation_tests` collection, please follow our example of a best work flow for contributing to the project:
+
+1. Create a fork off of the `spacetelescope` `jwst_validation_tests` repository.
+2. Make a local clone of your fork.
+3. Ensure your personal fork is pointing `upstream` properly.
+4. Create a branch on that personal fork.
+5. Make your software changes.
+6. Push that branch to your personal GitHub repository (i.e. `origin`).
+7. On the `spacetelescope` `jwst_validation_tests` repository, create a pull request that merges the branch into `spacetelescope:master`.
+8. Assign a reviewer from the team for the pull request.
+9. Iterate with the reviewer over any needed changes until the reviewer accepts and merges your branch.
+10. Delete your local copy of your branch.
+
+
+## Issue Reporting / Feature Requests
+
+Users who wish to report an issue or request a new feature may do so by submitting a new issue on GitHub: https://github.com/spacetelescope/jwst_validation_tests/issues
