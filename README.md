@@ -5,7 +5,7 @@
 [![STScI](https://img.shields.io/badge/powered%20by-STScI-blue.svg?colorA=707170&colorB=3e8ddd&style=flat)](http://www.stsci.edu)
 
 This repository contains test scripts that are used to validate the output of the JWST Calibration Pipeline. These are tests that do not need to be inspected visually by members
-of the science instrument teams.
+of the science instrument teams (those tests are stored in Jupyter notebooks). To see the JWST Validation Test Notebooks, visit [this repository.](https://github.com/spacetelescope/jwst_validation_notebooks)
 
 These tests follow a consistent [style guide](https://github.com/spacetelescope/style-guides/blob/master/guides/jupyter-notebooks.md) in terms of layout/structure, coding conventions etc.
 
