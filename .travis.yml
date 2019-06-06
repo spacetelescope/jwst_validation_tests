@@ -28,4 +28,4 @@ env:
 install:
     - git clone git://github.com/astropy/ci-helpers.git
     - source ci-helpers/travis/setup_conda.sh
-    - pip install git+https://github.com/eteq/nbpages.git#egg=nbpages
+#     - pip install git+https://github.com/eteq/nbpages.git#egg=nbpages
