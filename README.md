@@ -1,6 +1,6 @@
 # JWST Validation Tests
 
-<!-- [![Build Status](https://travis-ci.com/spacetelescope/jwst_validation_notebooks.svg?branch=master)](https://travis-ci.com/spacetelescope/jwst_validation_notebooks) -->
+[![Build Status](https://travis-ci.com/spacetelescope/jwst_validation_tests.svg?branch=master)](https://travis-ci.com/spacetelescope/jwst_validation_tests)
 [![PyPI - License](https://img.shields.io/pypi/l/Django.svg)](https://github.com/spacetelescope/jwql/blob/master/LICENSE)
 [![STScI](https://img.shields.io/badge/powered%20by-STScI-blue.svg?colorA=707170&colorB=3e8ddd&style=flat)](http://www.stsci.edu)
 
