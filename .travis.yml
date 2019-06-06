@@ -10,15 +10,19 @@ env:
     - CRDS_PATH='/tmp/crds_cache'
     - PYTHON_VERSION="3.5"
 
+matrix:
+  # Don't wait for allowed failures
+  fast_finish: true
+  include:
+    # Run tests
+    - env: TEST_COMMAND='python setup.py test'
+           PIP_DEPENDENCIES='.[test]'
+
 # jobs:
 #   include:
-#     - name: run/convert notebooks
-#       script: python convert.py
-#     - name: check notebooks
-#       script: python -m "nbpages.check_nbs" --commit-range="${TRAVIS_COMMIT_RANGE/.../..}"  # see https://github.com/travis-ci/travis-ci/issues/4596 for why this bit in TRAVIS_COMMIT_RANGE is necessary
 #     - stage: deploy
 #       if: type != "pull_request" AND branch = "master"
-#       script: python convert.py
+#       script: python setup.py test
 #       deploy:
 #         provider: pages
 #         skip-cleanup: true
@@ -29,3 +33,5 @@ install:
     - git clone git://github.com/astropy/ci-helpers.git
     - source ci-helpers/travis/setup_conda.sh
 #     - pip install git+https://github.com/eteq/nbpages.git#egg=nbpages
+
+script: $TEST_COMMAND
